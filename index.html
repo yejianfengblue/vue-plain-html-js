@@ -11,7 +11,8 @@
 <div id="counter">
     <span v-bind:title="message">
         Counter: {{ counter }}
-        <button v-on:click="resetCounter">Reset</button>
+        <div><button v-on:click="resetCounter">Reset</button></div>
+        <div>New value: <input v-model="counter" /></div>
 
     </span>
 </div>
