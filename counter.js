@@ -12,7 +12,7 @@ const Counter = {
         }, 1000)
     },
     methods: {
-        resetCounter() {
+        reset() {
             this.counter = 0
         }
     }
