@@ -9,8 +9,10 @@
 <h1>Hello, Vue :)</h1>
 
 <div id="counter">
-    <span v-bind:title="counterMessage">
+    <span v-bind:title="message">
         Counter: {{ counter }}
+        <button v-on:click="resetCounter">Reset</button>
+
     </span>
 </div>
 <!-- script element must be below the target element -->
